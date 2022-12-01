@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+aside{
+    width:18%;
+    border-right: 1px solid lightgray;
+    position: fixed;
+    background-color: white;
+}
+
+.wrapper{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand_name{
+    margin: 3rem 2rem;
+    font-size:large;
+
+}
+
+.wrapper div{
+    margin: 2rem  2rem;
+    display: flex;
+    justify-content:first flex-start;
+}
+
+.recent_post{
+    width: 30%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 30%; */
+    margin-left: 25rem;
+}
+
+.img_container{
+    border: 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.rita-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+
+}
