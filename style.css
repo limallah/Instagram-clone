@@ -5,56 +5,128 @@
 }
 
 body{
+    width: 100%;
     background-color: whitesmoke;
     font-family: "Poppins", sans-serif;
 }
 
 aside{
     width:18%;
+    height: 100%;
     border-right: 1px solid lightgray;
     position: fixed;
     background-color: white;
+    margin-top: -20px;
 }
 
 .wrapper{
-    display: block;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction:column;
+    gap: 2.5rem;
 }
 
 .brand_name{
     margin: 3rem 2rem;
+    font-family: 'Style Script', cursive;
     font-size:large;
 
 }
 
 .wrapper div{
-    margin: 2rem  2rem;
+    margin: 0px  2rem;
     display: flex;
-    justify-content:first flex-start;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
 .recent_post{
-    width: 30%;
+    width: 400px;
+    height: 120px;
     background-color: white;
     border: 1px solid lightgrey;
+    border-radius: 8px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /* height: 30%; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 18px;
     margin-left: 25rem;
 }
 
 .img_container{
-    border: 1px;
+    /* display: block;
+    justify-content:end;
+    align-items:baseline; */
+    padding: 16px 16px;
+}
+
+.rita-img{
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    border: 2px solid rgb(172, 119, 137);
+    padding: 2px;
 }
-.rita-img{
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
+.ay_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 2px;
+}
+.ay-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px;
+}
 
+.view_wrapper{
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 25rem;
+    background-color: white;
+    width: 400px; 
+    height: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px; 
+    height: 50px;  
+    padding: 12px 12px;
+    position: relative;
+}
+
+.icon{
+    width: 400px;
+    height: 30px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.favourite{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 12px 12px 4px;
+}
+
+.bottom_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px 12px;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid gray; */
+   
 }
