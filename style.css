@@ -16,7 +16,7 @@ aside{
     border-right: 1px solid lightgray;
     position: fixed;
     background-color: white;
-    margin-top: -20px;
+    /* margin-top: -20px; */
 }
 
 .wrapper{
@@ -28,8 +28,8 @@ aside{
 
 .brand_name{
     margin: 2rem 2rem;
-    font-family: 'Marck Script', cursive;
-    font-size:large;
+    font-family: 'Bad Script', cursive;
+    font-size:medium;
 
 }
 
@@ -42,6 +42,20 @@ aside{
     gap: 12px;
 }
 
+button{
+    width: 6.5rem;
+    background-color: white;
+    margin-left: 35rem;
+    /* margin-bottom: 10px; */
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1500;
+    border-style: hidden;
+   
+    
+}
+
 .recent_post{
     width: 400px;
     height: 120px;
@@ -51,8 +65,8 @@ aside{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 18px;
-    margin-left: 25rem;
+    /* margin-top: 18px; */
+    margin-left: 22rem;
 }
 
 .img_container{
@@ -87,7 +101,7 @@ aside{
     border-radius: 8px;
     height: fit-content;
     margin-top: 10px;
-    margin-left: 25rem;
+    margin-left: 22rem;
     background-color: white;
     width: 400px; 
     height: 100%;
@@ -128,5 +142,32 @@ aside{
     padding: 12px 12px;
     border-top: 1px solid lightgray;
     /* border-bottom: 1px solid gray; */
-   
+}
+
+.top_side{
+    display: flex;
+   justify-content: flex-start; 
+   align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    right: 9%;
+    top: 3%;
+    padding: 20px;
+}
+
+.side_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-direction: row; */
+    margin-bottom: 10px;
+}
+
+.side_container_head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
 }
